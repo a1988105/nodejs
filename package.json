@@ -1,10 +1,22 @@
 {
-  "name": "node-example",
-  "version": "0.0.1",
-  "dependencies": {
-    "express": "2.5.9"
+  "name": "study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "web.js",
+  "scripts": {
+    "star": "node web.js"
   },
-  "engines": {
-    "node": "0.6.x"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a1988105/nodejs.git"
+  },
+  "author": "Ryan Hsu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a1988105/issues"
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.74.0"
   }
 }
